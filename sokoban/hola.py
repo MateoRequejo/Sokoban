@@ -1,2 +1,0 @@
-def saludar():
-    print("hola")

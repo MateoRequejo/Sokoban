@@ -1,5 +1,4 @@
 import soko
-import hola
 import gamelib
 from cola import Cola
 from pila import Pila
@@ -276,7 +275,6 @@ def realizar_movimiento(juego, movimiento, pila_movimientos, movimientos_deshech
 
 def main():
     # Inicializar el estado del juego
-    hola.saludar()
     nivel = 1
     try:
         descripciones = crear_descripcion_niveles("niveles.txt")
